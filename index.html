@@ -542,8 +542,8 @@
     padding:6px;
     border-radius:32px;
     /* 下层 Fill · 固定深色玻璃：#444444 60% + #000000 25%
-       深色底衬压到 94%，让三个页面的底色几乎完全一致，只留极淡的背景透光 */
-    background-color:rgba(15,26,21,.94);
+       深色底衬 72%，保留通透透光；背景过亮时会略微提亮，属液态玻璃正常表现 */
+    background-color:rgba(15,26,21,.72);
     background-image:
       linear-gradient(rgba(68,68,68,.60),rgba(68,68,68,.60)),
       linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25));
